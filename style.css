@@ -1,0 +1,129 @@
+/*
+Theme Name: Lakeview
+Author: the Artifexedge team
+Author URI: Hardeep singh
+Version: 1.0
+License: GNU General Public License v1
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: jade scape condominium
+*/
+.container{ margin:0 auto !important ; }
+.vc_row{ margin:0 !important ; }
+.vc_column-inner { padding:0 !important; }
+.dental_servies .button.vc_btn3-right{ width:100%; float: left;   }
+/*==============*/
+.section1{ width:100%; float:left; background:#057ec3; color:#FFF; padding:45px 0px 55px 0px; }
+.section1 .title{ margin:0px;}
+.section1 .title h2{ font-size:34.18px; font-family: 'Gotham-Bold'; color: #FFF; text-align: left;  background:none; padding:0px; margin: 0px; }
+.section1 .title h2 span{ font-family: 'Gotham-Light'; }
+.section1 a{ max-width:287px; width:100%; text-align:center; margin-top:23px; float:right; font-size:17.89px; color:#057ec3; background:#FFF; border:2px solid #FFF; border-radius:3px;    
+ padding: 1px 20px; height:46px; line-height:40px; font-family: 'Gotham-Medium'; }
+.section1 a:hover{ border:2px solid #FFF; color:#FFF; background:#057ec3; }
+.section1 .vc_col-sm-4 p{ width:100%; float: right;   }
+.wpb_content_element{ margin:0px !important ;  }
+.dental_servies .container{ padding:0px;  }
+
+#myModal .modal-body{ width:100%; float: left;   }
+#myModal .modal-header .close {  margin-top: 0; position: absolute;  right:5px; padding:5px 10px;  top: 10px;  
+    opacity: 1; }
+#myModal .modal-header{ width: 100%; float:left; border-buttom:1px solid #ddd;   }
+#myModal .modal-title{ color:#FFF; font-weight: 600;  }
+.modal{ padding-top: 6%;  }
+#myModal .modal-content{ background:#057ec3; width:100%; float: left;  }
+.close{ color:#FFF; }
+.oral_class .wpb_wrapper h2 { width: 100%; float: left; display: inline-block;  color: #4a4a4a;  font-size: 20px;  font-family: 'Gotham-Bold'; text-align: left; padding:50% 0% 0% 0%;  background:none;}
+.oral_class .wpb_wrapper h2 span a{  font-family: 'Gotham-Light';  width: 100% !important;  float: left; color: #000;  font-size: 15px;  margin-top: 20px; }
+.oral_class .wpb_wrapper h2 span a:hover{text-decoration:underline; color:#057fc3;}
+.mouth_menu .wpb_wrapper h2{    color: #000000;   width: 100%;   font-size: 40px; margin-bottom: 30px; margin-top: 65px;}
+.mouth_menu .wpb_wrapper h3 {font-family: 'Gotham-Light';    color: #000;   font-size: 20px;   margin-bottom: 12px;   font-weight: initial;}
+.mouth_menu:after{content: ''; display: block; clear: both; position: relative; top: 3em; margin: 0 auto; background: linear-gradient(to right, transparent, var(--secondary), transparent); opacity: 0.6; height: 0.025em; min-height: 1px; width: 100%;     margin-bottom: 20%;}
+.main_mouth_heading{padding-bottom: 15%;}
+.banner_image {height: 500px; overflow: hidden;}
+.mouth_menu p{float: left; padding: 0px !important;}
+
+.wpb_raw_code .wpb_wrapper h2 { width: 100%; float: left; display: inline-block;  color: #4a4a4a;  font-size: 20px;  font-family: 'Gotham-Bold'; text-align: left; padding:50% 0% 0% 0%;  background:none;}
+.wpb_raw_code .wpb_wrapper h2 span a{  font-family: 'Gotham-Light';  width: 100% !important;  float: left; color: #000;  font-size: 15px;  margin-top: 20px; }
+.wpb_raw_code .wpb_wrapper h2 span a:hover{text-decoration:underline; color:#057fc3;}
+ 
+.wpb_text_column .wpb_wrapper h2{    color: #000000;   width: 100%;   font-size: 40px; margin-bottom: 30px; margin-top: 65px;}
+.wpb_text_column .wpb_wrapper h3 {font-family: 'Gotham-Light';    color: #000;   font-size: 20px;   margin-bottom: 12px;   font-weight: initial;}
+.wpb_text_column:after{content: ''; display: block; clear: both; position: relative; top: 3em; margin: 0 auto; background: linear-gradient(to right, transparent, var(--secondary), transparent); opacity: 0.6; height: 0.025em; min-height: 1px; width: 100%;     margin-bottom: 20%;}
+.wpb_text_column p{float: left; }
+
+.page-id-18 .wpb_content_element:after {display:none;}
+.home_page_menu h3{font-size: 17px !important;
+    color: #057fc3 !important;
+    margin-bottom: 7px !important;
+    font-family: 'Gotham-Black' !important;}
+
+.vc_row-fluid{padding-bottom: 15%;}
+.navbar-default .navbar-nav > li > a:hover {border-radius:3px;}
+.vc_row-fluid {padding-bottom:0px;}
+.vc_clearfix{width:100%; float:left;}
+.home_menu{width:100%; float:left;}
+/*====*/
+.owl_slider .owl-carousel .owl-item h5{ font-size:17px; text-transform: capitalize; margin-top:10px; color: #808080;
+font-family: 'Gotham-Light'; }
+
+
+/*====23-10-2018 css start ======*/
+.wpcf7-form-control.wpcf7-date.wpcf7-validates-as-date{ width:100%; float:left; }
+
+.form_box .col-sm-6.radio{ float:left; text-align: left; margin-top:0px !important;  }
+.form_box .col-sm-6.radio h5{ color:#FFF; font-size:13px;  font-family: 'Gotham-Bold'; margin:0px 0px 15px 0px; text-align: left; }  
+.form_box .col-sm-12 h5{ color:#FFF; font-size:13px;  font-family: 'Gotham-Bold'; margin:0px 0px 15px 0px; text-align: left; }  
+.form_box .wpcf7-form-control-wrap{ width:100%; color: #FFF; float: left;  margin: 0; line-height: normal; }
+.form_box .col-sm-6.radio input{ height:auto; line-height:normal; margin-left: -15px; margin-bottom:0px; }
+.form_box .col-sm-12 input{ height:auto; line-height:normal; margin-left: -15px; margin-bottom:0px; }
+.form_box span.wpcf7-list-item{ margin: 0px 35px 10px 15px; float: left; font-size: 14px; font-family: 'Gotham-Light'; }
+.form_box .col-sm-6.radio p{ width:100%; float:left; color:#fff; margin-bottom:10px; text-align: left;  }
+.form_box .col-sm-6 .specific input{ width:100% !important; height: 35px;  margin-bottom: 25px; margin-left: 0 !important; }
+.form_box .col-sm-12 p{ width:100%; float:left; color:#fff; margin-bottom:10px; text-align: left;  }
+.form_box .col-sm-12 .specific input{ width:100% !important; height: 35px;  margin-bottom: 25px; margin-left: 0 !important; }
+.form_box .col-sm-6.radio label{ padding-left:0px !important; }
+.form_box .col-sm-6.radio  p span select{ width: 100%;  float: left; padding: 5px 25px 5px 10px;
+    border: none;  background: #FFF url(http://artifexedge.com/dev/lakeview_wp/wp-content/uploads/2018/10/select-icon.png) no-repeat right;  color: #057ec3; -webkit-appearance: none;
+      -moz-appearance: none; appearance: none; position:relative; background-position: 97% 57%; font-size:11px; }
+
+.form_box .row .row{ margin:0px; }
+span.wpcf7-not-valid-tip {color:#FFF !important;}
+.wpb_single_image .vc_single_image-wrapper.vc_box_border_circle img{    transform: rotate(90deg);}
+/*====23-10-2018 css end ======*/
+
+@media(max-width:991px){
+.section1 .title h2{ font-size:27px; }
+.section1 a{ font-size: 13.89px;  }
+.section1{ padding: 25px 0px 40px 0px; }
+.form_box .col-sm-6.radio h5{ font-size:12px; }
+.form_box .col-sm-12 h5{ font-size:12px; }
+}
+@media(max-width:767px){
+.section1{ text-align: center;  }
+.section1 a{ display: inline-block; float: none; }
+	.form_box .col-sm-6.radio{ width:100%; }
+	.form_box .col-sm-6.radio h5{ font-size:15px; }
+	.form_box .col-sm-12 h5{  font-size:15px; }
+
+}
+@media(max-width:520px){
+.banner_image {height:auto;}
+.wpb_raw_code .wpb_wrapper h2 {    padding: 0% 0% 0% 0%;}
+.wpb_text_column .wpb_wrapper h2 {font-size: 30px;   margin-bottom: 7px;  margin-top: 25px;}
+.wpb_raw_code .wpb_wrapper h2 span a {    margin-top: 11px;}
+.wpb_text_column p { padding-bottom: 0px; }
+.section_about p{ padding-bottom: 0px; margin-bottom:20px !important; }
+.wpb_text_column:after {    top: 1em; margin-bottom: 15%;}
+.banner_title {margin:0px 0px 0px 0px; }
+.about_menu_section p {   padding-bottom: 10px !important;}
+.about_post {  padding: 7px 0px 13px 0px !important; }
+.page-id-63 .wpb_text_column .wpb_wrapper h2 {  font-size: 22px;}
+.page-id-63 .payment_content a {width:100%;}
+.page-id-63 .payment_content {  padding: 0px 0px 0px 0px;}
+.page-id-68 .wpb_text_column .wpb_wrapper h2 {  font-size: 19px;  margin-top: 19px;}
+.page-id-68 .col12 {    margin: 15px 0px 0px 0px;}
+.page-id-68 .payment_box a {width:100%;}
+.page-id-68 .payment_box {  padding: 0px 0px 0px 0px;}
+.blog_post_date .date_fix {    min-height: 42px;}
+}
+/*==============*/

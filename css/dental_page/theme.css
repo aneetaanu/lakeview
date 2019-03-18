@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+:root {
+    --accent-color: white;
+}
+:root {
+    --button-style: tab;
+}
+/* blue-orange */
+/* Font: Montserrat (Google Font)
+200 ExtraLight
+300 Light
+400 Regular
+600 Semibold
+700 Bold
+*/
+
+p{ display:inline !important ;  }
+
+:root {
+  --pagebg:     #fff !important;       /* Page background. White, maybe a nice gray, that most people would call white. */
+
+  --primary:    #E87E04 !important;    /* Primary brand color. Used for links and buttons */
+  --alternate:  #D35400 !important;    /* Darker variant of brand color, for things like buttons */
+  --links:      #D35400 !important;    /* Set to the same as --alternate in most cases */
+
+  --secondary:  #2574A9 !important;    /* Secondary color. Used for normal buttons. Can be used for the footer background. */
+  --accent:     #E9F1F6 !important;    /* Ligher color. Usually used for footer background and other design elements. */
+
+
+                            /* A selection of shades of gray. These can be changed to match a color
+                            scheme--that's why they're variables. But probably not. */
+  --xlight:     #ddd !important;
+  --light:      #bebebe !important;
+  --medium:     #808080 !important;
+  --dark:       #3c3c3c !important;
+  --xdark:      #181818 !important;
+
+
+  --normal:     #4a4a4a !important;    /* Primary text color */
+  --lighter:    #9b9b9b !important;    /* Lighter body copy. Used in several places. Should be similar to normal or accent text. */
+  --emphasis:   #000 !important;       /* Secondary text color. Used for major headings. */
+
+}
+
+body {
+  background: var(--pagebg); color: var(--normal);
+font-family: 'Roboto', sans-serif;
+}
+h1, h2 {color: var(--emphasis);}
+h3, h4, h5, h6 {color: var(--normal)}
+footer h3, footer h4 {color:var(--normal)}
+a {color: var(--links)}
+a.button {
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+a.button:hover, a.button:active {
+  background-color: var(--secondary);
+  color: #fff;
+}
+a.button.secondary {
+  color: #fff;
+  background-color: var(--primary);
+  border-color: var(--primary);
+  border-bottom-color: var(--alternate);
+}
+a.button.secondary:hover, a.button.secondary:active {
+  background-color: var(--alternate);
+  border-color: var(--alternate);
+}
+a.button.alt {
+  background-color: #fff;
+  color: var(--primary);
+  border-width: 0 0 5px;
+  border-color: #fff;
+  border-bottom-color: var(--primary);
+}
+a.button.alt:hover, a.button.alt:active {
+  background: var(--alternate);
+  border-color: var(--alternate);
+  color: #fff;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color:inherit; text-decoration: none;}
+.page-header,
+main > aside {
+  background: var(--secondary);
+  color: #fff;
+}
+.page-header a {color: #fff;}
+.page-footer {
+  background: var(--accent);
+}
+:root {
+    --about-section: default;
+}
+:root {
+    --template: alpha;
+}
+.articles h1{ font-size: 2.4rem;
+font-weight:400 !important; font-family: 'Roboto', sans-serif !important; margin-bottom: 20px !important; }
+.articles h2{ font-weight: 200 !important; font-family: 'Roboto', sans-serif !important; margin-bottom: 10px !important; }
+.content{ width:100%; float:left; margin-bottom: 10px;  }
+.content p{ font-size: 1rem;
+line-height: 1.7;
+margin: 1em auto;  font-weight: 300 !important; font-family: 'Roboto', sans-serif !important;}
+.content h4,.content h3,.content h2,.content h1{ width: auto; display: block; float: none; margin-bottom: 6px;  font-weight:400; font-family: 'Roboto', sans-serif; }
+.content ul{ display:inline; font-size: 1rem;line-height: 1.7; }
+.col12{ width:100%; float:left; margin:20px 0px; }
+/*
+.col12 a{ background-color:#105c2d !important; border-color:#0f4423 !important;    }
+/*
+.col12 a:hover{ background-color: #0f4423;  }
